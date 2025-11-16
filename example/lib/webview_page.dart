@@ -6,15 +6,13 @@ import 'package:webviewx_plus/webviewx_plus.dart';
 import 'helpers.dart';
 
 class WebViewXPage extends StatefulWidget {
-  const WebViewXPage({
-    Key? key,
-  }) : super(key: key);
+  const WebViewXPage({super.key});
 
   @override
-  _WebViewXPageState createState() => _WebViewXPageState();
+  WebViewXPageState createState() => WebViewXPageState();
 }
 
-class _WebViewXPageState extends State<WebViewXPage> {
+class WebViewXPageState extends State<WebViewXPage> {
   late WebViewXController webviewController;
   final scrollController = ScrollController();
 

@@ -1,4 +1,7 @@
-﻿
+﻿## 0.5.1+2
+
+-  Updated dependencies
+
 ## 0.5.1+1
 
 -  Fixed minor bug
